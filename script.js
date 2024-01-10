@@ -68,7 +68,7 @@
 
 
           $("#resume").click(function(){
-            window.open('./assests/resume/resume.pdf')
+            window.open('https://drive.google.com/file/d/19QEJ0c1YHplZCkBridimsau6RvufLpVJ/view?usp=sharing')
           })
 
 
