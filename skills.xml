@@ -1,0 +1,12 @@
+<skills>
+  <skill>
+    <name>HTML</name>
+  </skill>
+  <skill>
+    <name>CS</name>
+  </skill>
+  <skill>
+    <name>JS</name>
+  </skill>
+  <!-- Add more projects -->
+</skills>

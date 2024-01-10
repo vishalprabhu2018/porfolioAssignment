@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <header>
+      <nav class="headings">
+        <ul>
+          <li class="list" data-filter="home">About Me</li>
+          <li class="list" data-filter="skills">Skills</li>
+          <li class="list" data-filter="softSkills">Soft Skills</li>
+          <li class="list" data-filter="projects">Projects</li>
+          <li class="list" data-filter="contactMe">Contact Me</li>
+        </ul>
+      </nav>
+
+      <nav class="nav-btn headings">
+        <button class="heading-btn" id="resume">Resume</button>
+        <button class="heading-btn" id="linkedIn">Linked In</button>
+      </nav>
+    </header>
+
+    <section class="main">
+      <!--home  -->
+      <section class="itemBox home" id="home">
+        <div class="description">
+          <h1>About Me</h1>
+          <h3>Hi! I am Vishal Prabhu</h3>
+          <p>
+            My full name is Vishal Venkatesh Prabhu, I am 23 years old and I am
+            very excited to get my first job in a company. I am a responsible,
+            honest, self-taught and organized young man. Finally, I live at Mira
+            Road, Mumbai
+          </p>
+          <div class="home-btn">
+            <button class="heading-btn" id="github">Github</button>
+          </div>
+        </div>
+
+        <div class="myImage">
+          <img src="./assests/prabhuimage.png" alt="" />
+        </div>
+      </section>
+
+      <!-- skills -->
+      <section class="itemBox skills" id="skills">
+        <div class="name" id="name1">
+          <h1>SKILLS</h1>
+        </div>
+        <div id="cards">
+          <!-- JS Code has been use to inject  here data -->
+        </div>
+      </section>
+
+      <!-- soft skill -->
+      <section class="itemBox softSkills" id="softSkills">
+        <div class="name" id="name2">
+          <h1>SOFT SKILLS</h1>
+        </div>
+        <div id="cards2"></div>
+      </section>
+
+      <!-- Project -->
+      <section class="itemBox projects" id="projects">
+        <div class="name" id="name3">
+          <h1>PROJECTS</h1>
+        </div>
+        <div id="cards3"></div>
+      </section>
+    </section>
+
+    <!-- Contact Me -->
+    <section class="itemBox contactMe" id="contactMe">
+      <form onsubmit="sendMail()">
+        <h3>CONTACT ME</h3>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your email Id" required />
+        <textarea
+          id="message"
+          rows="4"
+          placeholder="Message"
+          required
+        ></textarea>
+        <button type="submit" class="heading-btn">Submit</button>
+      </form>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.js"
+      integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
