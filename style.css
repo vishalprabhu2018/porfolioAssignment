@@ -103,7 +103,7 @@ header {
 .main {
     display: flex;
     flex-direction: column;
-
+    margin-top: 3em;
     justify-content: center;
 }
 
@@ -268,12 +268,19 @@ form button {
         position: static;
     }
 
+    .main{
+        margin: auto;
+    }
+
     .headings ul {
         flex-direction: column;
         gap: .8em;
         text-align: center;
     }
-
+     
+    .projects{
+        height: auto;
+    }
 
 
     .home {
@@ -291,7 +298,8 @@ form button {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
+        gap: 4em;
+        
     }
 
 
@@ -314,6 +322,10 @@ form button {
 
 
 @media only screen and (max-width: 900px) {
+
+    .main{
+        margin: auto;
+    }
     body {
         gap: 5em;
         max-width: 70rem;
@@ -343,6 +355,10 @@ form button {
         justify-content: center;
         align-items: center;
         gap: 4em;
+    }
+
+    .projects{
+        height: auto;
     }
 
     .contactMe {
