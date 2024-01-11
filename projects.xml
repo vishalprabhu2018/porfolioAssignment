@@ -11,6 +11,18 @@
     <githubLink>https://github.com/vishalprabhu2018/Todo</githubLink>
   </project>
 
+  <project>
+    <title>Pizza Website</title>
+    <Link>https://vishalprabhu.online/</Link>
+    <githubLink>https://github.com/vishalprabhu2018/pizza-project</githubLink>
+  </project>
+
+  <project>
+    <title>Joke Generator</title>
+    <Link>https://vishalprabhu2018.github.io/jokeGenerator/</Link>
+    <githubLink>https://github.com/vishalprabhu2018/jokeGenerator</githubLink>
+  </project>
+
   <!-- Add more projects -->
 </projects>
 
