@@ -1,4 +1,4 @@
-1. In this  assignment I had Implement a filterable gallery in the Portfolio section using JavaScript and jQuery with the help of data-filter attribute and filter and not functions.
+1. In this  I had Implement a filterable gallery in the Portfolio section using JavaScript and jQuery with the help of data-filter attribute and filter and not functions.
 2. Made website responsive using flex box and media queries
 3. Used client side form validation in contactMe
 4. Used ajax jquery to fetch the data from the xml file which I had created in the project Itself. I had used it in myProjects and softskills sections of mine project.
